@@ -1,0 +1,375 @@
+.mfp-content {
+  max-width: 95% !important;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
+
+.bg3 {
+  animation-duration: 5s;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0.25em;
+  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  left: 50%;
+  padding: 10vmin;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}
+
+.fa-icon.fa-icon-2x {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 30px;
+}
+
+/* .fa-icon:not(.fa-phone):hover {
+  transform: scale(1.5);
+} */
+
+.fa-icon {
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.phone {
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.fa-icon:not(.fa-phone):hover {
+  color: rgb(254, 44, 85);
+}
+
+.cover:hover > .phone {
+  color: rgb(254, 44, 85);
+  text-decoration: none;
+  text-decoration: none;
+}
+
+.phone {
+  font-size: 20px;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card .card-block h2 {
+  margin-bottom: 0;
+}
+
+.card .card-block .iot-wrap-content {
+  /* display: flex; */
+  justify-content: space-between;
+}
+.card .card-block .iot-wrap-content .item {
+  flex-basis: 50%;
+}
+
+.card .card-block .iot-wrap-content .item img {
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.card .card-block .iot-wrap-content .img-wrap {
+  margin-right: 15px;
+}
+
+.card .card-block .iot-wrap-content .iot-description {
+  margin-top: 25px;
+}
+
+.readMoreBtn {
+  display: none;
+}
+
+.web-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.web-wrap > .front-end-wrap {
+  flex-basis: 50%;
+}
+
+.web-wrap > .back-end-wrap {
+  flex-basis: 50%;
+}
+
+.about-me-title {
+  display: inline-block;
+  margin-bottom: 25px !important;
+}
+
+.about-education {
+  margin-top: 25px;
+}
+
+.education-time span {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.education-title {
+  margin-bottom: 25px !important;
+}
+
+.about-honors {
+  margin-top: 25px;
+}
+
+.honor-title {
+  margin-bottom: 25px !important;
+}
+
+.company-detail {
+  margin-top: 25px;
+}
+
+.company-time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.certificate-item {
+  margin-top: 25px;
+}
+
+.active-nav {
+  color: rgb(254, 44, 85) !important;
+  text-decoration: underline rgb(254, 44, 85) 2px !important;
+  text-underline-offset: 8px;
+}
+
+.link-web {
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* popup-video */
+.popup-video {
+  display: inline-block;
+  padding: 8px;
+  border: 1px solid #09f;
+  border-radius: 5px;
+  margin-top: 8px;
+  text-decoration: none;
+}
+
+.popup-video:hover,
+.popup-video:active,
+.popup-video:focus {
+  border: 1px solid rgb(254, 44, 85);
+  text-decoration: none;
+  outline: none;
+}
+
+/* carousel */
+.slick-slide {
+  margin: 0 10px;
+}
+
+/* header */
+.dropdown-menu {
+  padding: 0;
+}
+
+.navbar {
+  border-radius: 0;
+  position: fixed;
+}
+
+.nav-item {
+  margin: 0 5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #000;
+}
+
+.dropdown-menu {
+  border-radius: 5px !important;
+}
+
+.dropdown-item {
+  color: #555;
+}
+
+.dropdown-item:hover {
+  color: rgb(254, 44, 85);
+  border-radius: 5px !important;
+}
+
+.dropdown-item:active {
+  background-color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
+
+.language-experience img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.navbar-brand {
+  padding: 5px 0 0 0;
+}
+
+.navbar-brand img {
+  width: 40px;
+  height: 40px;
+}
+
+.custom-style {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.language-wrap {
+  margin-left: auto;
+  /* display: flex; */
+}
+
+.language-vi {
+  color: #000;
+  cursor: pointer;
+}
+
+.language-en {
+  color: #000;
+  cursor: pointer;
+}
+
+.language-vi:hover {
+}
+
+.language-vi:hover {
+}
+
+.activeLanguage {
+  color: #09f;
+  text-decoration: underline;
+  text-decoration-color: #09f;
+  text-decoration-thickness: 1.5px;
+  font-weight: bold;
+}
+
+/* responsive */
+@media screen and (max-width: 1024px) {
+  .card .card-block .iot-wrap-content {
+    display: initial;
+  }
+  .card .card-block .iot-wrap-content .iot-description {
+    margin-top: 25px;
+  }
+
+  .collapse.navbar-collapse {
+    order: 2;
+  }
+
+  .language-wrap {
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .collapse:not(.show) {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .description-list,
+  .skills-list {
+    max-height: 2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .expanded {
+    max-height: initial;
+  }
+
+  .readMoreBtn {
+    display: inline-block;
+  }
+
+  .company-time {
+    display: initial;
+  }
+
+  .language-experience img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .web-wrap {
+    display: initial;
+  }
+}
+
+@media (max-width: 480px) {
+  .readMoreBtn {
+    font-size: 14.5x;
+  }
+}
