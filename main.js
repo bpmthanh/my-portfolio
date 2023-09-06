@@ -119,7 +119,13 @@ $(document).ready(function () {
   });
 });
 
-//header
+// ẩn cmt html
+document.addEventListener("DOMContentLoaded", function () {
+  var comments = document.querySelectorAll("<!--");
+  comments.forEach(function (comment) {
+    comment.style.display = "none";
+  });
+});
 
 //anchor
 $(document).ready(function () {
